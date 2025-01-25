@@ -28,6 +28,10 @@ namespace StarterAssets
             starterAssetsInputs.SprintInput(virtualSprintState);
         }
         
+        public void VirtualHoseInput(bool virtualHoseState)
+        {
+            starterAssetsInputs.HoseInput(virtualHoseState);
+        }
     }
 
 }

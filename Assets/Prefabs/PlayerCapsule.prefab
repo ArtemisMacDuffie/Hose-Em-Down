@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7992472855508284979
 Transform:
   m_ObjectHideFlags: 0
@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 8616685848737228371}
   - component: {fileID: 5420857361349278248}
   - component: {fileID: 8616685848737228376}
+  - component: {fileID: 7441782931165967464}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -491,6 +492,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  hose: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -593,6 +595,19 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 809648303282666099}
+--- !u!114 &7441782931165967464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616685848737228372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e83cdc62c98d64aa49e01f4bb83993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: {fileID: 2522470578856332932}
 --- !u!1 &8808220377658132994
 GameObject:
   m_ObjectHideFlags: 0

@@ -76,7 +76,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 1000, z: 0}
+  - {x: 0, y: 1, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.05
@@ -196,7 +196,7 @@ Transform:
   m_GameObject: {fileID: 5308918467846628067}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.19999996, y: -0.17499995, z: 0.4}
+  m_LocalPosition: {x: 0.1, y: -0.1, z: 0.2}
   m_LocalScale: {x: 0.05, y: 0.3, z: 0.050000004}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -607,7 +607,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e83cdc62c98d64aa49e01f4bb83993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceFactor: 32
+  camera: {fileID: 809648303282666097}
+  hoseCap: {fileID: 5308918467846628067}
   water: {fileID: 2522470578856332932}
+  waterLine: {fileID: 8810885571863429980}
+  target: {fileID: 0}
 --- !u!1 &8808220377658132994
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +813,12 @@ PrefabInstance:
       addedObject: {fileID: 6005782002736590767}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+--- !u!1 &809648303282666097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74,
+    type: 3}
+  m_PrefabInstance: {fileID: 8630175265645970838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &809648303282666099 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74,

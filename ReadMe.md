@@ -1,0 +1,1 @@
+Shiba Inu mesh and texture by HolotnAssets and downloaded at TurboSquid.com

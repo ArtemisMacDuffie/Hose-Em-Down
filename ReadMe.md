@@ -1,5 +1,8 @@
 The museum is filthy, and you've got a soapy hose.
 
+Level design and programming by Artemis MacDuffie (Maiden Magnificent).
+2D art assets managed by Isabella Dutra.
+
 Public domain art used:
 "The Night Watch" by Rembrandt van Rijn
 "The Birth of Venus" by Sandro Botticelli

@@ -7,6 +7,7 @@ Public domain art used:
 "Wheatfield with Crows" by Vincent van Gogh
 "Les Demoiselles d'Avignon" by Pablo Picasso
 "The Great Wave off Kanagawa" by Katsushika Hokusai
+"Soap Bubbles" by Jean-Baptiste-Siméon Chardin (bubble particle effect)
 
 Origami Dog model by DeepDreamDimension and downloaded at TurboSquid
 

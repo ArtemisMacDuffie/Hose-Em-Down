@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using TMPro;
 
 public class Scoring : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Scoring : MonoBehaviour
     public GameObject[] clownArray;
     public GameObject clownText;
     public ScoreKeeping scorekeeper;
+    public GameObject reticle;
 
     private List<GameObject> paintings;
     private List<GameObject> dogs;
@@ -75,7 +77,7 @@ public class Scoring : MonoBehaviour
     {
         if (paintings.Count == 0 && dogs.Count == 0 && clowns.Count == 0)
         {
-            
+            reticle.GetComponent<TextMeshProUGUI>().text = "Congrats! Everything is clean!";
         }
     }
 }

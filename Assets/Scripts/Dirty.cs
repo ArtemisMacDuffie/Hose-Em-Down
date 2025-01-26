@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class Dirty : MonoBehaviour
@@ -11,6 +10,7 @@ public class Dirty : MonoBehaviour
     public float cleanTime;
     public bool beingCleaned;
     public Scoring scoring;
+    public GameObject tada;
         
     // Start is called before the first frame update
     void Start()
@@ -34,6 +34,7 @@ public class Dirty : MonoBehaviour
         if (dirt <= 0f)
         {
             scoring.RemoveGameObject(gameObject);
+            tada.SetActive(true);
         }
     }
 }

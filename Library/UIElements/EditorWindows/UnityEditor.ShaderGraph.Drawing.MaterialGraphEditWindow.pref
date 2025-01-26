@@ -15,6 +15,26 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__0d7cdf7697b88864482fa205a8dd64f9__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__0d7cdf7697b88864482fa205a8dd64f9__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__9d5d69d74f57792478b0d331c58a0b99__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__9d5d69d74f57792478b0d331c58a0b99__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__fd4afea22a1c722409dcb9509737a5c5__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__fd4afea22a1c722409dcb9509737a5c5__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__d1e37871b8f09bd48934829cf43e0e94__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__d1e37871b8f09bd48934829cf43e0e94__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__6d0159a895ee21e4c87f578c2445c493__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__6d0159a895ee21e4c87f578c2445c493__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__2b87feae25a1b194e9f22bbd4a7714c4__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__2b87feae25a1b194e9f22bbd4a7714c4__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
-  - '{"position":{"x":862.0,"y":513.3333129882813,"z":0.0},"scale":{"x":0.49717673659324648,"y":0.49717673659324648,"z":1.0}}'
-  - '{"m_Version":497,"m_SelectedElementsArray":["f8b741a8-654e-4f6f-9949-4c27d5659561"]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":868.6666870117188,"y":520.6666870117188,"z":0.0},"scale":{"x":0.5535274744033814,"y":0.5535274744033814,"z":1.0}}'
+  - '{"m_Version":8,"m_SelectedElementsArray":[]}'

@@ -78,6 +78,23 @@ public class Spray : MonoBehaviour
                 bubbleSpray.SetActive(false);
             }
         }
+        else if (target.CompareTag("Clown"))
+        {
+            Clown clown = target.GetComponent<Clown>();
+            clown.beingCleaned = true;
+            if (clown.dirt <= 0)
+            {
+                clown.enabled = false;
+            }
+            if (clown.enabled)
+            {
+                bubbleSpray.transform.position = hit.point;
+            }
+            else
+            {
+                bubbleSpray.SetActive(false);
+            }
+        }
         else
         {
             target = null;

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Dirty
+  - Clown
   layers:
   - Default
   - TransparentFX
